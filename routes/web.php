@@ -24,3 +24,7 @@ Route::get('/grids', function () {
 Route::get('/display', function () {
     return view('tailwind.display');
 })->name('tailwind.display');
+
+Route::get('/tipografias', function () {
+    return view('tailwind.tipografias');
+})->name('tailwind.tipografias');

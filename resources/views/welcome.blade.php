@@ -8,6 +8,7 @@
         <ul>
             <li><a href="{{ route('tailwind.grids') }}">-> Utilización de grids</a></li>
             <li><a href="{{ route('tailwind.display') }}">-> Guía sobre display</a></li>
+            <li><a href="{{ route('tailwind.tipografias') }}">-> Tipografias</a></li>
         </ul>
     </div>
 
