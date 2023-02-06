@@ -13,6 +13,7 @@
             <li><a href="{{ route('tailwind.tipografias') }}">-> Tipografias <-</a></li>
             <li><a href="{{ route('tailwind.tipografias2') }}">-> Tipografias parte 2 <-</a></li>
             <li><a href="{{ route('tailwind.background') }}">-> Background <-</a></li>
+            <li><a href="{{ route('tailwind.border') }}">-> Bordes en el manejo de cajas <-</a></li>
         </ul>
     </div>
 

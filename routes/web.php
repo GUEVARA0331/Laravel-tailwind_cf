@@ -44,3 +44,7 @@ Route::get('/tipografias2', function () {
 Route::get('/background', function () {
     return view('tailwind.background');
 })->name('tailwind.background');
+
+Route::get('/border', function () {
+    return view('tailwind.border');
+})->name('tailwind.border');
