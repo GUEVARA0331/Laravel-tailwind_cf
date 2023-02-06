@@ -21,6 +21,10 @@ Route::get('/grids', function () {
     return view('tailwind.grids');
 })->name('tailwind.grids');
 
+Route::get('/ratio', function () {
+    return view('tailwind.ratio');
+})->name('tailwind.ratio');
+
 Route::get('/display', function () {
     return view('tailwind.display');
 })->name('tailwind.display');
