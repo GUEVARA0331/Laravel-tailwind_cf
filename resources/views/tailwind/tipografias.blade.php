@@ -1,6 +1,6 @@
 @extends('layouts.model')
 
-@section('title', 'Grids')
+@section('title', 'Tipografia básica')
 
 @section('content')
 

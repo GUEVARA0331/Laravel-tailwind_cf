@@ -28,3 +28,7 @@ Route::get('/display', function () {
 Route::get('/tipografias', function () {
     return view('tailwind.tipografias');
 })->name('tailwind.tipografias');
+
+Route::get('/background', function () {
+    return view('tailwind.background');
+})->name('tailwind.background');
