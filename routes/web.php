@@ -18,5 +18,9 @@ Route::get('/', function () {
 });
 
 Route::get('/grids', function () {
-    return view('grids');
+    return view('tailwind.grids');
 })->name('tailwind.grids');
+
+Route::get('/display', function () {
+    return view('tailwind.display');
+})->name('tailwind.display');
