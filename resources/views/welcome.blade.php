@@ -11,6 +11,7 @@
             <li><a href="{{ route('tailwind.columns') }}">-> Utilidad columns para el manejo de imagenes <-</a></li>
             <li><a href="{{ route('tailwind.display') }}">-> Guía sobre display <-</a></li>
             <li><a href="{{ route('tailwind.tipografias') }}">-> Tipografias <-</a></li>
+            <li><a href="{{ route('tailwind.tipografias2') }}">-> Tipografias parte 2 <-</a></li>
             <li><a href="{{ route('tailwind.background') }}">-> Background <-</a></li>
         </ul>
     </div>

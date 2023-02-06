@@ -6,6 +6,11 @@ module.exports = {
     "./resources/**/*.vue",
   ],
   theme: {
+
+    fontFamily: {
+        'mont': ['Montserrat']
+    },
+
     container: {
         center: true,
     },
