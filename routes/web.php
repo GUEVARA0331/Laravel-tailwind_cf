@@ -25,6 +25,10 @@ Route::get('/ratio', function () {
     return view('tailwind.ratio');
 })->name('tailwind.ratio');
 
+Route::get('/columns', function () {
+    return view('tailwind.columns');
+})->name('tailwind.columns');
+
 Route::get('/display', function () {
     return view('tailwind.display');
 })->name('tailwind.display');

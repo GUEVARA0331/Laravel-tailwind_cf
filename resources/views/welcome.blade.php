@@ -6,11 +6,12 @@
 
     <div class="container">
         <ul>
-            <li><a href="{{ route('tailwind.grids') }}">-> Utilización de grids</a></li>
-            <li><a href="{{ route('tailwind.ratio') }}">-> Cambiar el Aspect Ratio (frame de video de YouTube)</a></li>
-            <li><a href="{{ route('tailwind.display') }}">-> Guía sobre display</a></li>
-            <li><a href="{{ route('tailwind.tipografias') }}">-> Tipografias</a></li>
-            <li><a href="{{ route('tailwind.background') }}">-> Background</a></li>
+            <li><a href="{{ route('tailwind.grids') }}">-> Utilización de grids <-</a></li>
+            <li><a href="{{ route('tailwind.ratio') }}">-> Cambiar el Aspect Ratio (frame de video de YouTube) <-</a></li>
+            <li><a href="{{ route('tailwind.columns') }}">-> Utilidad columns para el manejo de imagenes <-</a></li>
+            <li><a href="{{ route('tailwind.display') }}">-> Guía sobre display <-</a></li>
+            <li><a href="{{ route('tailwind.tipografias') }}">-> Tipografias <-</a></li>
+            <li><a href="{{ route('tailwind.background') }}">-> Background <-</a></li>
         </ul>
     </div>
 
