@@ -56,3 +56,7 @@ Route::get('/tablas', function () {
 Route::get('/sizes', function () {
     return view('tailwind.sizes');
 })->name('tailwind.sizes');
+
+Route::get('/layout', function () {
+    return view('tailwind.layout');
+})->name('tailwind.layout');
