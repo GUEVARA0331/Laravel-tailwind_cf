@@ -48,3 +48,7 @@ Route::get('/background', function () {
 Route::get('/border', function () {
     return view('tailwind.border');
 })->name('tailwind.border');
+
+Route::get('/tablas', function () {
+    return view('tailwind.tablas');
+})->name('tailwind.tablas');
