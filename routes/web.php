@@ -52,3 +52,7 @@ Route::get('/border', function () {
 Route::get('/tablas', function () {
     return view('tailwind.tablas');
 })->name('tailwind.tablas');
+
+Route::get('/sizes', function () {
+    return view('tailwind.sizes');
+})->name('tailwind.sizes');

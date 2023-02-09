@@ -15,6 +15,7 @@
             <li><a href="{{ route('tailwind.background') }}">-> Background <-</a></li>
             <li><a href="{{ route('tailwind.border') }}">-> Bordes en el manejo de cajas <-</a></li>
             <li><a href="{{ route('tailwind.tablas') }}">-> Manejo de tablas <-</a></li>
+            <li><a href="{{ route('tailwind.sizes') }}">-> Tamaños de cajas <-</a></li>
         </ul>
     </div>
 
